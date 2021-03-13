@@ -1392,7 +1392,7 @@ margin-left: 15px;
 }
 /* Statistics */
 .stastistical-part .section-seperator{
-  background-image: url(../images/online_statistics.jpg);
+  background-image: url(../images/blog_cover.png);
 }
 
 .stastistical-part .content {
@@ -2694,7 +2694,7 @@ margin-left: 15px;
   }
 }
 .pricing-part .section-seperator{
-  background-image: url(../images/appartment.jpg);
+  background-image: url(../images/products_cover.png);
   }
   .pricing-slide-text{
     font-size:22px;
@@ -2861,7 +2861,7 @@ section#tips-part {
 }
 
 .tips-part .section-seperator{
-  background-image: url(../images/tips.jpg);
+  background-image: url(../images/roadmap.png);
   }
 
 .tips-part .content {

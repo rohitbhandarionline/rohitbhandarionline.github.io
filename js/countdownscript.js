@@ -8,18 +8,18 @@ var countDownDate = new Date("Oct 14, 2022").getTime();
 // new Date("Jan 1, 2023").getTime();
 
 //Dussehra
-(today.getDate() == 5 && today.getMonth() == 9) ||
+//(today.getDate() == 5 && today.getMonth() == 9) ||
 //Diwali
-(today.getDate() == 24 && today.getMonth() == 9) ||
+//(today.getDate() == 24 && today.getMonth() == 9) ||
 //Children's day
-(today.getDate() == 14 && today.getMonth() == 10) ||
+//(today.getDate() == 14 && today.getMonth() == 10) ||
 //Black Friday
-(today.getDate() == 25 && today.getMonth() == 10) ||
+//(today.getDate() == 25 && today.getMonth() == 10) ||
 //Christmas
-(today.getDate() == 25 && today.getMonth() == 11) ||
+//(today.getDate() == 25 && today.getMonth() == 11) ||
 //New year
-(today.getDate() == 31 && today.getMonth() == 11) ||
-(today.getDate() == 1 && today.getMonth() == 0)
+//(today.getDate() == 31 && today.getMonth() == 11) ||
+//(today.getDate() == 1 && today.getMonth() == 0)
 
 // Update the count down every 1 second
 var x = setInterval(function() {

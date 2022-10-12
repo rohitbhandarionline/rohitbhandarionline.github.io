@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Oct 14, 2022").getTime();
+var countDownDate = new Date("Oct 24, 2022").getTime();
 // new Date("Oct 24, 2022").getTime();
 // new Date("Nov 14, 2022").getTime();
 // new Date("Nov 25, 2022").getTime();

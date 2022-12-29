@@ -1,10 +1,15 @@
 var today = new Date();
 var element = document.getElementById('salebutton')
 if (
-    //Dussehra
-    (today.getDate() == 5 && today.getMonth() == 9) ||
-    //Diwali
-    (today.getDate() == 24 && today.getMonth() == 9) ||
+    //Fixed holidays
+    //Republic day
+    (today.getDate() == 26 && today.getMonth() == 0) ||
+    //Valentine's day
+    (today.getDate() == 14 && today.getMonth() == 1) ||
+    //Birthday 
+    (today.getDate() == 19 && today.getMonth() == 4) ||
+    //Independence day
+    (today.getDate() == 14 && today.getMonth() == 7) ||
     //Children's day
     (today.getDate() == 14 && today.getMonth() == 10) ||
     //Black Friday

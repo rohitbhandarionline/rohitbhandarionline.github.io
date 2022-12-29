@@ -1,25 +1,31 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Oct 24, 2022").getTime();
+var countDownDate = 
+// new Date("Oct 24, 2022").getTime();
 // new Date("Oct 24, 2022").getTime();
 // new Date("Nov 14, 2022").getTime();
 // new Date("Nov 25, 2022").getTime();
 // new Date("Dec 25, 2022").getTime();
-// new Date("Dec 31, 2022").getTime();
+new Date("Dec 31, 2022").getTime();
 // new Date("Jan 1, 2023").getTime();
 
-//Dussehra
-//(today.getDate() == 5 && today.getMonth() == 9) ||
-//Diwali
-//(today.getDate() == 24 && today.getMonth() == 9) ||
-//Children's day
-//(today.getDate() == 14 && today.getMonth() == 10) ||
-//Black Friday
-//(today.getDate() == 25 && today.getMonth() == 10) ||
-//Christmas
-//(today.getDate() == 25 && today.getMonth() == 11) ||
-//New year
-//(today.getDate() == 31 && today.getMonth() == 11) ||
-//(today.getDate() == 1 && today.getMonth() == 0)
+    //Fixed holidays
+    // //Republic day
+    // (today.getDate() == 26 && today.getMonth() == 0) ||
+    // //Valentine's day
+    // (today.getDate() == 14 && today.getMonth() == 1) ||
+    // //Birthday 
+    // (today.getDate() == 19 && today.getMonth() == 4) ||
+    // //Independence day
+    // (today.getDate() == 14 && today.getMonth() == 7) ||
+    // //Children's day
+    // (today.getDate() == 14 && today.getMonth() == 10) ||
+    // //Black Friday
+    // (today.getDate() == 25 && today.getMonth() == 10) ||
+    // //Christmas
+    // (today.getDate() == 25 && today.getMonth() == 11) ||
+    // //New year
+    // (today.getDate() == 31 && today.getMonth() == 11) ||
+    // (today.getDate() == 1 && today.getMonth() == 0)
 
 // Update the count down every 1 second
 var x = setInterval(function() {

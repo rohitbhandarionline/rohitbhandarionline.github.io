@@ -6,73 +6,80 @@
     <meta name="description" content="Rohit Bhandari - Data Scientist specializing in supply chain optimization using Python, SQL, and Azure. Helping businesses save money in inventory.">
     <title>Rohit Bhandari - Data Scientist</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: #fafafa;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
         }
         header {
-            background-color: #1c1c1e;
-            color: #f5f5f7;
-            padding: 40px 0;
-            text-align: center;
+            background-color: #ffffff;
+            color: #333;
+            padding: 20px 40px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
         }
-        h1 {
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav a {
+            color: #0073e6;
+            text-decoration: none;
+            font-size: 1em;
+            margin: 0 15px;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            padding: 80px 40px 40px;
+            text-align: center;
+            background-color: #0073e6;
+            color: #ffffff;
+        }
+        .hero h1 {
+            margin: 0;
             font-size: 2.5em;
-            margin-bottom: 10px;
             font-weight: 600;
         }
-        h2 {
-            font-size: 1.3em;
+        .hero h2 {
+            margin: 10px 0;
+            font-size: 1.5em;
             font-weight: 400;
-            color: #a1a1a6;
         }
-        .container {
-            width: 85%;
-            max-width: 800px;
-            margin: 50px auto;
-            background-color: #ffffff;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            flex: 1;
+        .content {
+            padding: 60px 40px;
+            max-width: 1200px;
+            margin: auto;
         }
-        .intro {
-            text-align: center;
-        }
-        .intro h2 {
+        .content h2 {
             font-size: 2em;
-            margin-bottom: 20px;
             color: #333;
         }
-        .intro p {
+        .content p {
             font-size: 1.1em;
-            margin-bottom: 30px;
+            line-height: 1.6;
+            color: #555;
         }
         .cta {
             text-align: center;
-            margin-top: 40px;
+            margin-top: 30px;
         }
         .cta a {
             display: inline-block;
-            background-color: #007aff;
-            color: white;
-            padding: 15px 30px;
-            border-radius: 8px;
-            font-size: 1.1em;
             text-decoration: none;
-            transition: background-color 0.3s ease;
-            margin: 10px 0;
+            background-color: #0073e6;
+            color: #ffffff;
+            padding: 15px 25px;
+            border-radius: 5px;
+            font-size: 1.1em;
+            margin: 0 10px;
         }
         .cta a:hover {
             background-color: #005bb5;
@@ -80,42 +87,33 @@
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #1c1c1e;
-            color: white;
-            font-size: 0.9em;
-        }
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2em;
-            }
-            .intro h2 {
-                font-size: 1.5em;
-            }
-            .intro p {
-                font-size: 1em;
-            }
-            .cta a {
-                width: 100%;
-                padding: 12px 0;
-                font-size: 1em;
-            }
+            background-color: #333;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Rohit Bhandari</h1>
-    <h2>Data Scientist | Optimizing Supply Chain Systems</h2>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </div>
 </header>
 
-<div class="container">
-    <div class="intro">
-        <h2>Welcome to My Website</h2>
-        <p>I'm Rohit Bhandari, a Data Scientist focusing on supply chain optimization using Python, SQL, and Azure. I help businesses reduce inventory costs and improve efficiency with data-driven insights.</p>
-        <p>My goal is to streamline complex supply chain processes and provide actionable strategies that enhance decision-making and save money.</p>
-    </div>
+<div class="hero">
+    <h1>Rohit Bhandari</h1>
+    <h2>Data Scientist | Optimizing Supply Chain Systems | Python, SQL, Azure</h2>
+</div>
 
+<div class="content">
+    <h2>Welcome to My Website</h2>
+    <p>Hello, I'm Rohit Bhandari, a Data Scientist specializing in optimizing supply chain systems within the IT industry. My goal is to help businesses save money by leveraging data science and technology to streamline inventory management and improve operational efficiency.</p>
+    <p>With expertise in Python, SQL, and Azure, I provide data-driven solutions that transform complex supply chain processes into actionable insights, ensuring that businesses can make smarter, faster decisions and maximize their resources.</p>
     <div class="cta">
         <a href="portfolio.html">Explore My Work</a>
         <a href="contact.html">Get in Touch</a>

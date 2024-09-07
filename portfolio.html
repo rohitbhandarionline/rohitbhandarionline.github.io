@@ -60,18 +60,38 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
         .portfolio-item {
             margin-bottom: 20px;
         }
-        .portfolio-item h3 {
-            margin: 0;
-            font-size: 1.5em;
-            color: #007aff;
+        .portfolio-item img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
         }
         .portfolio-item p {
-            font-size: 1.1em;
-            line-height: 1.6;
+            margin: 10px 0;
             color: #666;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007aff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        .cta a:hover {
+            background-color: #005bb5;
         }
         footer {
             text-align: center;
@@ -85,6 +105,11 @@
                 display: block;
                 text-align: left;
             }
+            .cta a {
+                display: block;
+                margin: 10px auto;
+                width: calc(100% - 40px);
+            }
         }
     </style>
 </head>
@@ -92,7 +117,7 @@
 
 <header>
     <h1>Rohit Bhandari</h1>
-    <h2>Data Scientist | Optimizing Supply Chain Systems | Python, SQL, Azure</h2>
+    <h2>Portfolio</h2>
 </header>
 
 <nav>
@@ -100,21 +125,26 @@
     <a href="portfolio.html">Portfolio</a>
     <a href="blog.html">Blog</a>
     <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="testimonials.html">Testimonials</a>
 </nav>
 
 <div class="container">
-    <h2>Portfolio</h2>
+    <h2>My Projects</h2>
+    
     <div class="portfolio-item">
-        <h3>Supply Chain Optimization with Python</h3>
-        <p>Developed a Python-based solution to optimize supply chain operations, reducing lead times and improving inventory accuracy. Implemented advanced analytics to forecast demand and streamline procurement processes.</p>
+        <img src="https://images.unsplash.com/photo-1600747021886-9f2074ff67d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyNzUyNzN8MHwxfGFsbHwxfHx8fHx8fHwxNjg4NjQ5NzA2&ixlib=rb-1.2.1&q=80&w=600" alt="Project 1">
+        <p><strong>Project Title 1</strong> - A detailed description of the project, including objectives, outcomes, and technologies used. This project focused on optimizing inventory management using advanced data analytics.</p>
     </div>
+    
     <div class="portfolio-item">
-        <h3>SQL Data Analysis for Inventory Management</h3>
-        <p>Created SQL queries and scripts to analyze large datasets related to inventory management. Identified key trends and insights that led to more efficient inventory practices and cost savings.</p>
+        <img src="https://images.unsplash.com/photo-1534598713697-0da0045d0874?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyNzUyNzN8MHwxfGFsbHwxfHx8fHx8fHwxNjg4NjQ5NzA2&ixlib=rb-1.2.1&q=80&w=600" alt="Project 2">
+        <p><strong>Project Title 2</strong> - A comprehensive overview of the project, detailing the impact of data-driven decisions on supply chain efficiency. Techniques used include predictive modeling and statistical analysis.</p>
     </div>
-    <div class="portfolio-item">
-        <h3>Azure-Based Supply Chain Dashboard</h3>
-        <p>Designed and deployed an Azure-based dashboard that provides real-time insights into supply chain performance. Enabled stakeholders to monitor key metrics and make data-driven decisions.</p>
+
+    <div class="cta">
+        <a href="contact.html">Get in Touch</a>
     </div>
 </div>
 

@@ -60,20 +60,42 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .blog-post {
-            margin-bottom: 30px;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 20px;
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
         }
-        .blog-post h3 {
-            margin: 0;
-            font-size: 1.8em;
+        .blog-item {
+            margin-bottom: 20px;
+        }
+        .blog-item img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .blog-item h3 {
+            margin: 10px 0;
             color: #007aff;
         }
-        .blog-post p {
-            font-size: 1.1em;
-            line-height: 1.6;
+        .blog-item p {
+            margin: 10px 0;
             color: #666;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007aff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        .cta a:hover {
+            background-color: #005bb5;
         }
         footer {
             text-align: center;
@@ -87,6 +109,11 @@
                 display: block;
                 text-align: left;
             }
+            .cta a {
+                display: block;
+                margin: 10px auto;
+                width: calc(100% - 40px);
+            }
         }
     </style>
 </head>
@@ -94,7 +121,7 @@
 
 <header>
     <h1>Rohit Bhandari</h1>
-    <h2>Data Scientist | Optimizing Supply Chain Systems | Python, SQL, Azure</h2>
+    <h2>Blog</h2>
 </header>
 
 <nav>
@@ -102,21 +129,28 @@
     <a href="portfolio.html">Portfolio</a>
     <a href="blog.html">Blog</a>
     <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="testimonials.html">Testimonials</a>
 </nav>
 
 <div class="container">
-    <h2>Blog</h2>
-    <div class="blog-post">
-        <h3>Understanding Supply Chain Analytics</h3>
-        <p>In this post, we explore the fundamentals of supply chain analytics, its importance, and how data science can be used to optimize supply chain operations. Learn about key metrics, tools, and techniques that drive efficiency and cost savings.</p>
+    <h2>Latest Blog Posts</h2>
+    
+    <div class="blog-item">
+        <img src="https://images.unsplash.com/photo-1556740749-8b1a5e2d0c3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyNzUyNzN8MHwxfGFsbHwxfHx8fHx8fHwxNjg4NjQ5NzA2&ixlib=rb-1.2.1&q=80&w=600" alt="Blog Post 1">
+        <h3>Understanding Data Science in Supply Chain Management</h3>
+        <p>A deep dive into how data science is revolutionizing supply chain management, including techniques and case studies. <a href="#">Read More</a></p>
     </div>
-    <div class="blog-post">
-        <h3>Leveraging Python for Data Science Projects</h3>
-        <p>Python is a powerful tool for data science. This article covers various libraries and frameworks available in Python for data analysis, machine learning, and visualization. Discover best practices and tips for using Python effectively in your data projects.</p>
+    
+    <div class="blog-item">
+        <img src="https://images.unsplash.com/photo-1600295145101-7fd27955f6b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyNzUyNzN8MHwxfGFsbHwxfHx8fHx8fHwxNjg4NjQ5NzA2&ixlib=rb-1.2.1&q=80&w=600" alt="Blog Post 2">
+        <h3>Optimizing Inventory Costs with Python</h3>
+        <p>Explore various Python techniques for optimizing inventory costs, including practical examples and code snippets. <a href="#">Read More</a></p>
     </div>
-    <div class="blog-post">
-        <h3>Using Azure for Scalable Data Solutions</h3>
-        <p>Microsoft Azure offers a range of services for building and deploying scalable data solutions. We delve into the key features of Azure, including data storage, analytics, and machine learning capabilities, and how they can be leveraged for supply chain optimization.</p>
+
+    <div class="cta">
+        <a href="contact.html">Contact Me</a>
     </div>
 </div>
 

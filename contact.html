@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contact Rohit Bhandari - Reach out for data science consultations, supply chain optimization projects, or any inquiries.">
     <meta name="google-adsense-account" content="ca-pub-2131756561067686">
-    <title>Rohit Bhandari - Contact</title><!DOCTYPE html>
-   <style>
+    <title>Rohit Bhandari - Contact</title>
+    <style>
         * {
             box-sizing: border-box;
         }
@@ -54,7 +54,7 @@
         .container {
             flex: 1;
             padding: 20px;
-            max-width: 800px;
+            max-width: 1200px;
             margin: auto;
             background-color: white;
             border-radius: 8px;
@@ -64,53 +64,40 @@
             text-align: center;
             margin-bottom: 20px;
         }
-        form {
-            display: flex;
-            flex-direction: column;
+        .social-links {
+            text-align: center;
+            margin-bottom: 20px;
         }
-        label {
-            margin-bottom: 5px;
-            font-weight: bold;
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1.5em;
+            color: #007aff;
         }
-        input[type="text"],
-        input[type="email"],
-        textarea {
-            margin-bottom: 15px;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 1em;
+        .social-links a:hover {
+            color: #005bb5;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
             width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
         }
-        textarea {
-            height: 150px;
-            resize: vertical;
-        }
-        button {
+        .contact-form input[type="submit"] {
             background-color: #007aff;
             color: white;
             border: none;
-            padding: 15px;
-            border-radius: 5px;
-            font-size: 1.1em;
             cursor: pointer;
+            font-size: 1.1em;
         }
-        button:hover {
+        .contact-form input[type="submit"]:hover {
             background-color: #005bb5;
-        }
-        .social-links {
-            text-align: center;
-            margin: 30px 0;
-        }
-        .social-links a {
-            text-decoration: none;
-            margin: 0 15px;
-            display: inline-block;
-        }
-        .social-links img {
-            width: 40px;
-            height: 40px;
-            vertical-align: middle;
         }
         footer {
             text-align: center;
@@ -124,10 +111,9 @@
                 display: block;
                 text-align: left;
             }
-            .cta a {
+            .social-links a {
                 display: block;
                 margin: 10px auto;
-                width: calc(100% - 40px);
             }
         }
     </style>
@@ -136,7 +122,7 @@
 
 <header>
     <h1>Rohit Bhandari</h1>
-    <h2>Data Scientist | Optimizing Supply Chain Systems | Python, SQL, Azure</h2>
+    <h2>Contact</h2>
 </header>
 
 <nav>
@@ -144,11 +130,28 @@
     <a href="portfolio.html">Portfolio</a>
     <a href="blog.html">Blog</a>
     <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="testimonials.html">Testimonials</a>
 </nav>
 
 <div class="container">
-    <h2>Contact Me</h2>
-    <form action="mailto:rohitbhandarionline@gmail.com" method="post" enctype="text/plain">
+    <h2>Get in Touch</h2>
+
+    <div class="social-links">
+         <a href="https://www.linkedin.com/in/rohitonlinked" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+        </a>
+        <a href="https://www.instagram.com/rohit.datascience" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+        </a>
+        <a href="https://www.youtube.com/@rohit.datascience" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube">
+        </a>
+    </div>
+
+    <div class="contact-form">
+        <form action="mailto:rohitbhandarionline@gmail.com" method="post" enctype="text/plain">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required>
 
@@ -160,17 +163,6 @@
 
         <button type="submit">Send Message</button>
     </form>
-    
-    <div class="social-links">
-        <a href="https://www.linkedin.com/in/rohitonlinked" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-        </a>
-        <a href="https://www.instagram.com/rohit.datascience" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
-        </a>
-        <a href="https://www.youtube.com/@rohit.datascience" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube">
-        </a>
     </div>
 </div>
 

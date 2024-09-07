@@ -7,79 +7,73 @@
     <title>Rohit Bhandari - Data Scientist</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background-color: #f0f0f5;
+            color: #333;
         }
         header {
-            background-color: #ffffff;
-            color: #333;
-            padding: 20px 40px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            position: fixed;
-            width: 100%;
-            top: 0;
-            left: 0;
-            z-index: 1000;
-        }
-        .nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .nav a {
-            color: #0073e6;
-            text-decoration: none;
-            font-size: 1em;
-            margin: 0 15px;
-        }
-        .nav a:hover {
-            text-decoration: underline;
-        }
-        .hero {
-            padding: 80px 40px 40px;
+            background-color: #333;
+            color: white;
+            padding: 15px;
             text-align: center;
-            background-color: #0073e6;
-            color: #ffffff;
         }
-        .hero h1 {
+        header h1 {
             margin: 0;
-            font-size: 2.5em;
-            font-weight: 600;
+            font-size: 2em;
         }
-        .hero h2 {
-            margin: 10px 0;
-            font-size: 1.5em;
+        header h2 {
+            margin: 5px 0 0;
+            font-size: 1.2em;
             font-weight: 400;
         }
-        .content {
-            padding: 60px 40px;
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
             max-width: 1200px;
             margin: auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .content h2 {
-            font-size: 2em;
-            color: #333;
+        .intro {
+            text-align: center;
+            margin: 40px 0;
         }
-        .content p {
+        .intro p {
             font-size: 1.1em;
             line-height: 1.6;
-            color: #555;
+            color: #666;
         }
         .cta {
             text-align: center;
             margin-top: 30px;
         }
         .cta a {
-            display: inline-block;
             text-decoration: none;
-            background-color: #0073e6;
-            color: #ffffff;
+            background-color: #007aff;
+            color: white;
             padding: 15px 25px;
             border-radius: 5px;
             font-size: 1.1em;
             margin: 0 10px;
+            display: inline-block;
         }
         .cta a:hover {
             background-color: #005bb5;
@@ -88,32 +82,32 @@
             text-align: center;
             padding: 20px;
             background-color: #333;
-            color: #ffffff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            color: white;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <div class="nav">
-        <a href="#">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </div>
-</header>
-
-<div class="hero">
     <h1>Rohit Bhandari</h1>
     <h2>Data Scientist | Optimizing Supply Chain Systems | Python, SQL, Azure</h2>
-</div>
+</header>
 
-<div class="content">
-    <h2>Welcome to My Website</h2>
-    <p>Hello, I'm Rohit Bhandari, a Data Scientist specializing in optimizing supply chain systems within the IT industry. My goal is to help businesses save money by leveraging data science and technology to streamline inventory management and improve operational efficiency.</p>
-    <p>With expertise in Python, SQL, and Azure, I provide data-driven solutions that transform complex supply chain processes into actionable insights, ensuring that businesses can make smarter, faster decisions and maximize their resources.</p>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="intro">
+        <h2>Welcome to My Website</h2>
+        <p>Hello, I'm Rohit Bhandari, a Data Scientist specializing in optimizing supply chain systems within the IT industry. My goal is to help businesses save money by leveraging data science and technology to streamline inventory management and improve operational efficiency.</p>
+        <p>With expertise in Python, SQL, and Azure, I provide data-driven solutions that transform complex supply chain processes into actionable insights, ensuring that businesses can make smarter, faster decisions and maximize their resources.</p>
+    </div>
+
     <div class="cta">
         <a href="portfolio.html">Explore My Work</a>
         <a href="contact.html">Get in Touch</a>

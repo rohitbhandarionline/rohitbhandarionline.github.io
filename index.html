@@ -6,12 +6,18 @@
     <meta name="description" content="Rohit Bhandari - Data Scientist specializing in supply chain optimization using Python, SQL, and Azure. Helping businesses save money in inventory.">
     <title>Rohit Bhandari - Data Scientist</title>
     <style>
-        body {
-            font-family: "Times New Roman", serif;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Times New Roman", serif;
             background-color: #f0f0f0;
             color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             background-color: #333;
@@ -20,12 +26,10 @@
             text-align: center;
         }
         h1 {
-            margin: 0;
-            font-size: 3em;
-            font-weight: normal;
+            font-size: 2.8em;
+            margin-bottom: 10px;
         }
         h2 {
-            margin: 0;
             font-size: 1.2em;
             font-weight: lighter;
             color: #bbb;
@@ -33,11 +37,12 @@
         .container {
             width: 90%;
             max-width: 800px;
-            margin: 50px auto;
+            margin: auto;
             background-color: #fff;
             padding: 40px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
             border: 1px solid #ccc;
+            flex: 1;
         }
         .intro {
             text-align: center;
@@ -63,6 +68,7 @@
             padding: 15px 30px;
             border-radius: 5px;
             font-size: 1.1em;
+            display: inline-block;
             margin: 10px;
         }
         .cta a:hover {
@@ -73,21 +79,24 @@
             padding: 20px;
             background-color: #333;
             color: white;
-            margin-top: 60px;
             font-size: 0.9em;
         }
         @media (max-width: 768px) {
-            .container {
-                padding: 20px;
-            }
             header h1 {
-                font-size: 2.5em;
+                font-size: 2.4em;
             }
             .intro h2 {
                 font-size: 1.6em;
             }
             .intro p {
                 font-size: 1em;
+            }
+            .cta a {
+                padding: 10px 20px;
+                font-size: 1em;
+                width: 100%;
+                box-sizing: border-box;
+                margin: 5px 0;
             }
         }
     </style>

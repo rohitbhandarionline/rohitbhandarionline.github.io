@@ -3,154 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rohit Bhandari - Portfolio showcasing data science projects and supply chain optimization solutions.">
-    <meta name="google-adsense-account" content="ca-pub-2131756561067686">
-    <title>Rohit Bhandari - Portfolio</title>
+    <title>Portfolio | Rohit Kumar Bhandari</title>
     <style>
-        * {
-            box-sizing: border-box;
-        }
+        /* General body style for mobile-first */
         body {
-            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f5;
+            background-color: #f0f0f0;
             color: #333;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 15px;
             text-align: center;
+            line-height: 1.6;
+            filter: grayscale(100%);
         }
-        header h1 {
-            margin: 0;
-            font-size: 2em;
-        }
-        header h2 {
-            margin: 5px 0 0;
-            font-size: 1.2em;
-            font-weight: 400;
-        }
-        nav {
-            background-color: #444;
-            overflow: hidden;
-        }
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-            font-size: 1em;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
+
+        /* Container for centering content */
         .container {
-            flex: 1;
-            padding: 20px;
             max-width: 1200px;
-            margin: auto;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 0 auto;
+            padding: 20px;
         }
-        h2 {
-            text-align: center;
-            margin-bottom: 20px;
+
+        /* Portfolio heading */
+        .portfolio-header {
+            padding: 40px 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
         }
-        .portfolio-item {
-            margin-bottom: 20px;
+
+        .portfolio-header h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
         }
-        .portfolio-item img {
-            width: 100%;
-            max-height: 300px;
-            object-fit: cover;
-            border-radius: 5px;
-        }
-        .portfolio-item p {
-            margin: 10px 0;
+
+        .portfolio-header p {
+            font-size: 1.2em;
             color: #666;
         }
-        .cta {
-            text-align: center;
-            margin: 20px 0;
+
+        /* Portfolio Section */
+        .portfolio-item {
+            background-color: #ffffff;
+            padding: 30px 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+            text-align: left;
         }
-        .cta a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007aff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
+
+        .portfolio-item h2 {
+            font-size: 1.8em;
+            color: #1a1a1a;
+        }
+
+        .portfolio-item p {
             font-size: 1.1em;
+            color: #555;
         }
-        .cta a:hover {
-            background-color: #005bb5;
+
+        .portfolio-item span {
+            font-size: 0.9em;
+            color: #777;
         }
-        footer {
-            text-align: center;
-            padding: 20px;
+
+        /* CTA link */
+        .portfolio-item a {
+            text-decoration: none;
+            color: #333;
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            border-radius: 25px;
             background-color: #333;
             color: white;
+            transition: background-color 0.3s ease;
         }
-        @media (max-width: 600px) {
-            nav a {
-                float: none;
-                display: block;
-                text-align: left;
+
+        .portfolio-item a:hover {
+            background-color: #555;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            font-size: 0.9em;
+            color: #666;
+            background-color: #eaeaea;
+        }
+
+        /* Responsive Design */
+        @media (min-width: 768px) {
+            .portfolio-header h1 {
+                font-size: 3em;
             }
-            .cta a {
-                display: block;
-                margin: 10px auto;
-                width: calc(100% - 40px);
+
+            .portfolio-item h2 {
+                font-size: 2em;
             }
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Rohit Bhandari</h1>
-    <h2>Portfolio</h2>
-</header>
+    <!-- Main Container -->
+    <div class="container">
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="blog.html">Blog</a>
-    <a href="contact.html">Contact</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="testimonials.html">Testimonials</a>
-</nav>
+        <!-- Portfolio Header -->
+        <div class="portfolio-header">
+            <h1>My Portfolio</h1>
+            <p>Data-driven solutions to optimize supply chain systems and reduce inventory costs.</p>
+        </div>
 
-<div class="container">
-    <h2>My Projects</h2>
-    
-    <div class="portfolio-item">
-        <img src="https://images.unsplash.com/photo-1600747021886-9f2074ff67d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyNzUyNzN8MHwxfGFsbHwxfHx8fHx8fHwxNjg4NjQ5NzA2&ixlib=rb-1.2.1&q=80&w=600" alt="Project 1">
-        <p><strong>Project Title 1</strong> - A detailed description of the project, including objectives, outcomes, and technologies used. This project focused on optimizing inventory management using advanced data analytics.</p>
+        <!-- Portfolio Item 1 -->
+        <div class="portfolio-item">
+            <h2>Inventory Optimization Model</h2>
+            <p>Reduced inventory costs by 20% for a leading retailer through a Python-based predictive analytics model integrated with Azure SQL.</p>
+            <span>Technologies: Python, Azure SQL, Power BI, Machine Learning</span><br>
+            <a href="#">View Full Case Study</a>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="portfolio-item">
+            <h2>Cloud-Based Supply Chain Dashboard</h2>
+            <p>Designed a real-time dashboard for a logistics company using Azure, resulting in a 15% increase in operational efficiency.</p>
+            <span>Technologies: Azure, Power BI, SQL, Python</span><br>
+            <a href="#">View Full Case Study</a>
+        </div>
+
+        <!-- Portfolio Item 3 -->
+        <div class="portfolio-item">
+            <h2>Inventory Turnover Analysis</h2>
+            <p>Conducted a detailed analysis that improved the inventory turnover rate by 25% for a manufacturing company.</p>
+            <span>Technologies: SQL, Python, Tableau</span><br>
+            <a href="#">View Full Case Study</a>
+        </div>
+
     </div>
-    
-    <div class="portfolio-item">
-        <img src="https://images.unsplash.com/photo-1534598713697-0da0045d0874?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyNzUyNzN8MHwxfGFsbHwxfHx8fHx8fHwxNjg4NjQ5NzA2&ixlib=rb-1.2.1&q=80&w=600" alt="Project 2">
-        <p><strong>Project Title 2</strong> - A comprehensive overview of the project, detailing the impact of data-driven decisions on supply chain efficiency. Techniques used include predictive modeling and statistical analysis.</p>
-    </div>
 
-    <div class="cta">
-        <a href="contact.html">Get in Touch</a>
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2024 Rohit Kumar Bhandari. All rights reserved.
     </div>
-</div>
-
-<footer>
-    <p>&copy; 2024 Rohit Bhandari. All Rights Reserved.</p>
-</footer>
 
 </body>
 </html>
